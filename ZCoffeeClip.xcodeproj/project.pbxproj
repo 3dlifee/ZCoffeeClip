@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,42 @@
 		F347D6B7267CE75700CB4580 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F347D6B6267CE75700CB4580 /* ContentView.swift */; };
 		F347D6B9267CE75900CB4580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F347D6B8267CE75900CB4580 /* Assets.xcassets */; };
 		F347D6BC267CE75900CB4580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F347D6BB267CE75900CB4580 /* Preview Assets.xcassets */; };
+		F347D6CA267CE92B00CB4580 /* ZCoffeeTargetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F347D6C9267CE92B00CB4580 /* ZCoffeeTargetApp.swift */; };
+		F347D6CC267CE92B00CB4580 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F347D6CB267CE92B00CB4580 /* ContentView.swift */; };
+		F347D6CE267CE92D00CB4580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F347D6CD267CE92D00CB4580 /* Assets.xcassets */; };
+		F347D6D1267CE92D00CB4580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F347D6D0267CE92D00CB4580 /* Preview Assets.xcassets */; };
+		F347D6D6267CE92D00CB4580 /* ZCoffeeTarget.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = F347D6C7267CE92B00CB4580 /* ZCoffeeTarget.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F347D6DD267CEA3900CB4580 /* swift-algorand-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = F347D6DC267CEA3900CB4580 /* swift-algorand-sdk */; };
+		F347D6E0267CEA8A00CB4580 /* swift-algorand-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = F347D6DF267CEA8A00CB4580 /* swift-algorand-sdk */; };
+		F347D6E2267CEC4700CB4580 /* ZCoffeeSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F347D6E1267CEC4700CB4580 /* ZCoffeeSwiftUIView.swift */; };
+		F347D6E3267CEC4700CB4580 /* ZCoffeeSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F347D6E1267CEC4700CB4580 /* ZCoffeeSwiftUIView.swift */; };
+		F347D6E8267D1D5900CB4580 /* compile.teal.txt in Resources */ = {isa = PBXBuildFile; fileRef = F347D6E7267D1D5900CB4580 /* compile.teal.txt */; };
+		F347D6E9267D1D5900CB4580 /* compile.teal.txt in Resources */ = {isa = PBXBuildFile; fileRef = F347D6E7267D1D5900CB4580 /* compile.teal.txt */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F347D6D4267CE92D00CB4580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F347D6A9267CE75700CB4580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F347D6C6267CE92B00CB4580;
+			remoteInfo = ZCoffeeTarget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F347D6DA267CE92D00CB4580 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				F347D6D6267CE92D00CB4580 /* ZCoffeeTarget.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F347D6B1267CE75700CB4580 /* ZCoffeeClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCoffeeClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +55,15 @@
 		F347D6B8267CE75900CB4580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F347D6BB267CE75900CB4580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F347D6BD267CE75900CB4580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F347D6C7267CE92B00CB4580 /* ZCoffeeTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCoffeeTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F347D6C9267CE92B00CB4580 /* ZCoffeeTargetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCoffeeTargetApp.swift; sourceTree = "<group>"; };
+		F347D6CB267CE92B00CB4580 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F347D6CD267CE92D00CB4580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F347D6D0267CE92D00CB4580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F347D6D2267CE92D00CB4580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F347D6D3267CE92D00CB4580 /* ZCoffeeTarget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZCoffeeTarget.entitlements; sourceTree = "<group>"; };
+		F347D6E1267CEC4700CB4580 /* ZCoffeeSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCoffeeSwiftUIView.swift; sourceTree = "<group>"; };
+		F347D6E7267D1D5900CB4580 /* compile.teal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = compile.teal.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +71,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F347D6DD267CEA3900CB4580 /* swift-algorand-sdk in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F347D6C4267CE92B00CB4580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F347D6E0267CEA8A00CB4580 /* swift-algorand-sdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,7 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				F347D6B3267CE75700CB4580 /* ZCoffeeClip */,
+				F347D6C8267CE92B00CB4580 /* ZCoffeeTarget */,
 				F347D6B2267CE75700CB4580 /* Products */,
+				F347D6DE267CEA8A00CB4580 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				F347D6B1267CE75700CB4580 /* ZCoffeeClip.app */,
+				F347D6C7267CE92B00CB4580 /* ZCoffeeTarget.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +110,8 @@
 			children = (
 				F347D6B4267CE75700CB4580 /* ZCoffeeClipApp.swift */,
 				F347D6B6267CE75700CB4580 /* ContentView.swift */,
+				F347D6E1267CEC4700CB4580 /* ZCoffeeSwiftUIView.swift */,
+				F347D6E7267D1D5900CB4580 /* compile.teal.txt */,
 				F347D6B8267CE75900CB4580 /* Assets.xcassets */,
 				F347D6BD267CE75900CB4580 /* Info.plist */,
 				F347D6BA267CE75900CB4580 /* Preview Content */,
@@ -69,6 +127,34 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F347D6C8267CE92B00CB4580 /* ZCoffeeTarget */ = {
+			isa = PBXGroup;
+			children = (
+				F347D6C9267CE92B00CB4580 /* ZCoffeeTargetApp.swift */,
+				F347D6CB267CE92B00CB4580 /* ContentView.swift */,
+				F347D6CD267CE92D00CB4580 /* Assets.xcassets */,
+				F347D6D2267CE92D00CB4580 /* Info.plist */,
+				F347D6D3267CE92D00CB4580 /* ZCoffeeTarget.entitlements */,
+				F347D6CF267CE92D00CB4580 /* Preview Content */,
+			);
+			path = ZCoffeeTarget;
+			sourceTree = "<group>";
+		};
+		F347D6CF267CE92D00CB4580 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F347D6D0267CE92D00CB4580 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F347D6DE267CEA8A00CB4580 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +165,40 @@
 				F347D6AD267CE75700CB4580 /* Sources */,
 				F347D6AE267CE75700CB4580 /* Frameworks */,
 				F347D6AF267CE75700CB4580 /* Resources */,
+				F347D6DA267CE92D00CB4580 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F347D6D5267CE92D00CB4580 /* PBXTargetDependency */,
+			);
+			name = ZCoffeeClip;
+			packageProductDependencies = (
+				F347D6DC267CEA3900CB4580 /* swift-algorand-sdk */,
+			);
+			productName = ZCoffeeClip;
+			productReference = F347D6B1267CE75700CB4580 /* ZCoffeeClip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F347D6C6267CE92B00CB4580 /* ZCoffeeTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F347D6D7267CE92D00CB4580 /* Build configuration list for PBXNativeTarget "ZCoffeeTarget" */;
+			buildPhases = (
+				F347D6C3267CE92B00CB4580 /* Sources */,
+				F347D6C4267CE92B00CB4580 /* Frameworks */,
+				F347D6C5267CE92B00CB4580 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ZCoffeeClip;
-			productName = ZCoffeeClip;
-			productReference = F347D6B1267CE75700CB4580 /* ZCoffeeClip.app */;
-			productType = "com.apple.product-type.application";
+			name = ZCoffeeTarget;
+			packageProductDependencies = (
+				F347D6DF267CEA8A00CB4580 /* swift-algorand-sdk */,
+			);
+			productName = ZCoffeeTarget;
+			productReference = F347D6C7267CE92B00CB4580 /* ZCoffeeTarget.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +212,9 @@
 					F347D6B0267CE75700CB4580 = {
 						CreatedOnToolsVersion = 12.5;
 					};
+					F347D6C6267CE92B00CB4580 = {
+						CreatedOnToolsVersion = 12.5;
+					};
 				};
 			};
 			buildConfigurationList = F347D6AC267CE75700CB4580 /* Build configuration list for PBXProject "ZCoffeeClip" */;
@@ -112,11 +226,15 @@
 				Base,
 			);
 			mainGroup = F347D6A8267CE75700CB4580;
+			packageReferences = (
+				F347D6DB267CEA3900CB4580 /* XCRemoteSwiftPackageReference "Swift-Algorand-Sdk" */,
+			);
 			productRefGroup = F347D6B2267CE75700CB4580 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F347D6B0267CE75700CB4580 /* ZCoffeeClip */,
+				F347D6C6267CE92B00CB4580 /* ZCoffeeTarget */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +246,17 @@
 			files = (
 				F347D6BC267CE75900CB4580 /* Preview Assets.xcassets in Resources */,
 				F347D6B9267CE75900CB4580 /* Assets.xcassets in Resources */,
+				F347D6E8267D1D5900CB4580 /* compile.teal.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F347D6C5267CE92B00CB4580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F347D6D1267CE92D00CB4580 /* Preview Assets.xcassets in Resources */,
+				F347D6CE267CE92D00CB4580 /* Assets.xcassets in Resources */,
+				F347D6E9267D1D5900CB4580 /* compile.teal.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +269,29 @@
 			files = (
 				F347D6B7267CE75700CB4580 /* ContentView.swift in Sources */,
 				F347D6B5267CE75700CB4580 /* ZCoffeeClipApp.swift in Sources */,
+				F347D6E2267CEC4700CB4580 /* ZCoffeeSwiftUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F347D6C3267CE92B00CB4580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F347D6CC267CE92B00CB4580 /* ContentView.swift in Sources */,
+				F347D6CA267CE92B00CB4580 /* ZCoffeeTargetApp.swift in Sources */,
+				F347D6E3267CEC4700CB4580 /* ZCoffeeSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F347D6D5267CE92D00CB4580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F347D6C6267CE92B00CB4580 /* ZCoffeeTarget */;
+			targetProxy = F347D6D4267CE92D00CB4580 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F347D6BE267CE75900CB4580 /* Debug */ = {
@@ -202,7 +350,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG APPCLIP";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -256,6 +404,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPCLIP;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -265,6 +414,7 @@
 		F347D6C1267CE75900CB4580 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +437,7 @@
 		F347D6C2267CE75900CB4580 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +451,52 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com3dlifestudio.ZCoffeeClip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F347D6D8267CE92D00CB4580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZCoffeeTarget/ZCoffeeTarget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ZCoffeeTarget/Preview Content\"";
+				DEVELOPMENT_TEAM = 78F53PVES8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZCoffeeTarget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com3dlifestudio.ZCoffeeClip.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F347D6D9267CE92D00CB4580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZCoffeeTarget/ZCoffeeTarget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ZCoffeeTarget/Preview Content\"";
+				DEVELOPMENT_TEAM = 78F53PVES8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZCoffeeTarget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com3dlifestudio.ZCoffeeClip.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,7 +524,40 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		F347D6D7267CE92D00CB4580 /* Build configuration list for PBXNativeTarget "ZCoffeeTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F347D6D8267CE92D00CB4580 /* Debug */,
+				F347D6D9267CE92D00CB4580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F347D6DB267CEA3900CB4580 /* XCRemoteSwiftPackageReference "Swift-Algorand-Sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Jesulonimi21/Swift-Algorand-Sdk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F347D6DC267CEA3900CB4580 /* swift-algorand-sdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F347D6DB267CEA3900CB4580 /* XCRemoteSwiftPackageReference "Swift-Algorand-Sdk" */;
+			productName = "swift-algorand-sdk";
+		};
+		F347D6DF267CEA8A00CB4580 /* swift-algorand-sdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F347D6DB267CEA3900CB4580 /* XCRemoteSwiftPackageReference "Swift-Algorand-Sdk" */;
+			productName = "swift-algorand-sdk";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F347D6A9267CE75700CB4580 /* Project object */;
 }
