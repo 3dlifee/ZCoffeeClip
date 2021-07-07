@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "f96b619bcb2383b43d898402283924b80e2c4bae",
+          "version": "5.4.3"
+        }
+      },
+      {
+        "package": "Ed25519",
+        "repositoryURL": "https://github.com/AndrewBarba/ed25519.git",
+        "state": {
+          "branch": null,
+          "revision": "77bf751b603c573d50e45e2adb2e06776af219ae",
+          "version": "1.1.0"
+        }
+      },
+      {
+        "package": "MessagePack",
+        "repositoryURL": "https://github.com/Flight-School/MessagePack",
+        "state": {
+          "branch": null,
+          "revision": "bbc5ab6362db234f2051e73e67296ebf5c3d2042",
+          "version": "1.2.4"
+        }
+      },
+      {
+        "package": "MessagePacker",
+        "repositoryURL": "https://github.com/hirotakan/MessagePacker.git",
+        "state": {
+          "branch": null,
+          "revision": "4d3e63b5202f236dfe3cb9c3b3c2022a7a9ff6e5",
+          "version": "0.4.5"
+        }
+      },
+      {
+        "package": "swift-algorand-sdk",
+        "repositoryURL": "https://github.com/Jesulonimi21/Swift-Algorand-Sdk.git",
+        "state": {
+          "branch": "main",
+          "revision": "28514ab675d266a2a415dc752e5d29d4234c2e4c",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftKeccak",
+        "repositoryURL": "https://github.com/bitflying/SwiftKeccak.git",
+        "state": {
+          "branch": null,
+          "revision": "5fc323d4b08a8c77cbb690505445b32a3b5a8aff",
+          "version": "0.1.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
