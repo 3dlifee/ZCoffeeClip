@@ -179,7 +179,7 @@ struct ZCoffeeSwiftUIView: View {
             _ = try! account.signLogicsig(lsig: lsig)
             
             let tx = try? Transaction.paymentTransactionBuilder().setSender(senderAddress)
-                .amount(100000000)
+                .amount(1000000)
                 .receiver(receiverAddress2)
                 .note("draw algo with logic signature".bytes)
                 .suggestedParams(params: paramResponse.data!)
